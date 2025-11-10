@@ -1,12 +1,3 @@
-/* =========================================================
-   PUSS IN BOOTS — FŐ STYLESHEET
-   - Letisztított, logikusan tagolt és bőbeszédű kommentekkel
-   - Oldalsáv + tartalom elrendezés
-   - Lista nézet (kártyák)
-   - Modal és űrlap grid
-   - Login oldal külön scope-ban
-   ========================================================= */
-
 /* ========== 1) CSS VÁLTOZÓK (színek, méretek, árnyékok) ========== */
 :root {
     /* Layout */
@@ -125,7 +116,7 @@ body {
     transition: width .3s ease;
 }
 
-/* Finom “fénycsík” a háttérben hoverkor */
+/* “fénycsík” a háttérben hoverkor */
 .menu a::before {
     content: "";
     position: absolute;
@@ -242,7 +233,7 @@ body {
 }
 
 .shoe-card:hover .brand-icon {
-    transform: scale(1.05);
+    transform: scale(2);
     opacity: 1;
 }
 

@@ -70,7 +70,7 @@ export default function List() {
         setFormData((prev) => ({ ...prev, [id]: value }));
     };
 
-    // Modal kulturált bezárása + reset
+    // Modal bezárása + reset
     const closeModal = () => {
         setModalOpen(false);
         setEditIndex(null);
